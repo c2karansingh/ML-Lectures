@@ -1,0 +1,87 @@
+Machine Learning :
+
+
+A machine is supposed to be learning if it learns from experience E , which causes an improvement in performance measure P on a task T.
+
+AI :
+	{
+		Machine learning
+				Neural Networks
+				{
+					Deep learning
+					Convolutional Neural Networks
+				}
+	}
+
+Machine Learning types :
+Regression	[Continuous values ] examples : Price Prediction , Rainfall prediction
+Classification  [Discrete values] examples : winning team prediction , spam mails , tumors (malignant or benign)
+
+Always given some data set :
+Unsupervised Learning [Not given labels]
+Supervised Learning [Given labels]
+
+Supervised vs unsupervised ::
+1 1.1 1.2 1.3 1.4 1.5 1.6 2.0
+
+1
+2
+3	Ap
+4
+
+
+5 6 7 8 AP
+10 11 12 13 AP
+
+Octave : 
+Vectorised-
+A 1 2  B 1 2 ans = [1*1+2*3 1*2+2*4]
+	 3 4
+
+
+
+
+
+
+
+Y=mx+c
+
+X Y
+0,1
+1,2
+2,4 -
+3,5-
+4,5
+5,6
+7,9-
+8,10-
+9,10
+10,11
+11,12
+12,13
+13,14
+14,16-
+15,17-
+16,17
+17,18
+19,19-
+20,21
+
+HYPOTHESIS : our assumped function
+m=1,c=1
+y=x+1
+
+0,1
+1,2
+2,4 but our prediction is 3. difference/error is -1
+total error is -7
+
+error fn = |h(x)-y| or (h(x)-y)^even number
+add error at every training set
+
+
+
+
+minimize error fn :
+error(m,c)
+
